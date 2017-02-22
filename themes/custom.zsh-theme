@@ -186,5 +186,6 @@ CUR_PROMPT_INDICATOR=2
 
 RPROMPT='$(plugged_in)$(battery_charge)'
 
-PROMPT='$TOP_SEP[CUR_SEP] %{%f%b%k%}$(build_prompt)
-$BOTTOM_SEP[CUR_SEP]$PROMPT_INDICATOR[CUR_PROMPT_INDICATOR] '
+# PROMPT='$TOP_SEP[CUR_SEP] %{%f%b%k%}$(build_prompt)
+# $BOTTOM_SEP[CUR_SEP]$PROMPT_INDICATOR[CUR_PROMPT_INDICATOR] '
+PROMPT='%{%f%b%k%}$(build_prompt) '
